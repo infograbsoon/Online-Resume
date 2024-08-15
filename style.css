@@ -1,0 +1,178 @@
+/* Basic Page Setup */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Header Logo */
+.logo {
+    height: 50px; 
+    display: block; 
+    margin: 0 auto 1rem; 
+}
+
+/* Header Navigation */
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover,
+header nav a.active { 
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background-image: url("../assets/images/hero-background.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+.hero-content {
+    flex: 1; 
+    padding: 0 2rem; 
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 2rem; /* Add margin to the left of the image */
+}
+
+/* About & Skills Section */
+.about, .skills {
+    padding: 3rem 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.col {
+    flex: 1;
+    padding: 0 1rem;
+    min-width: 300px; 
+}
+
+/* Projects Section */
+.projects {
+    padding: 3rem 0;
+}
+
+.projects .row {
+    justify-content: space-around; 
+}
+
+.project {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer nav a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+
